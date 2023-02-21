@@ -27,28 +27,21 @@ void print_times_table(int n)
 					_putchar(32);
 					_putchar(32);
 					_putchar(f + 48);
-
 				}
 				else if (f <= 99)
 				{
 					_putchar(32);
 					_putchar((f / 10) + 48);
 					_putchar((f % 10) + 48);
-
 				}
 				else
 				{
 					_putchar(((f / 100) % 10) + 48);
 					_putchar(((f / 10) % 10) + 48);
 					_putchar((f % 10) + 48);
-
 				}
-
 			}
 			_putchar('\n');
-
 		}
-
 	}
-
 }
