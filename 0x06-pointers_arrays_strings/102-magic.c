@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - entry point for program execution
+ *
+ * Return: Always 0
+ */
+
 int main(void)
 {
 	int n;
